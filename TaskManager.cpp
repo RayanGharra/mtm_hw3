@@ -31,6 +31,7 @@ void TaskManager::assignTask(const std::string& name, const Task& task) {
     next_task_id++;
 
     employees[index].tasks.insert(copy);
+    employees[index].person.assignTask(copy);
 }
 
 void TaskManager::completeTask(const std::string& name) {

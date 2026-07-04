@@ -34,6 +34,8 @@ namespace mtm {
 
         ConstIterator begin() const;
         ConstIterator end() const;
+        ConstIterator begin();
+        ConstIterator end();
 
     };
 
@@ -205,6 +207,16 @@ void SortedList<T>::remove(ConstIterator it) {
 
     template <typename T>
     typename SortedList<T>::ConstIterator SortedList<T>::end() const {
+        return ConstIterator(nullptr);
+    }
+
+    template <typename T>
+typename SortedList<T>::ConstIterator SortedList<T>::begin() {
+        return ConstIterator(head);
+    }
+
+    template <typename T>
+    typename SortedList<T>::ConstIterator SortedList<T>::end() {
         return ConstIterator(nullptr);
     }
 
