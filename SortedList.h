@@ -220,6 +220,7 @@ SortedList<T>::~SortedList() {
 
         head = nullptr;
         cur_length = 0;
+        
     }
 
 
