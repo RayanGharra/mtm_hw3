@@ -1,3 +1,32 @@
+* commit a609ea9a6413f24af98d4a8c699fb973ce30d4c9
+| Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+| Date:   Sat Jul 4 17:02:52 2026 +0300
+| 
+|     remove files for final submission
+| 
+|  Person.cpp           |  51 -----
+|  Person.h             |  79 --------
+|  README.md            |   6 -
+|  Task.cpp             |  86 --------
+|  Task.h               | 115 -----------
+|  main.cpp             | 531 -------------------------------------------------
+|  tests/test1.expected |   3 -
+|  tests/test2.expected |   3 -
+|  tests/test3.expected |  30 ---
+|  tests/test4.expected |   3 -
+|  tests/test5.expected |   3 -
+|  tests/test6.expected |  15 --
+|  12 files changed, 925 deletions(-)
+| 
+* commit fa66390f17ec2b23e38f0e336fd17d44ad3adde1
+| Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+| Date:   Sat Jul 4 16:54:59 2026 +0300
+| 
+|     add log.txt for final submission
+| 
+|  log.txt | 76 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 76 insertions(+)
+| 
 * commit b911219b19005c0d07dd8d3fb9eeb00bc228af3b
 | Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
 | Date:   Sat Jul 4 16:53:42 2026 +0300
