@@ -46,7 +46,7 @@ namespace mtm {
             return;
         }
 
-        Node* head = new Node(other.head->data);
+        this->head = new Node(other.head->data);
         cur_length++;
 
         Node* cur_old = other.head->next;
@@ -126,9 +126,10 @@ namespace mtm {
             return cur_node->data;
         }
         ConstIterator& operator++() {
-            if (cur_node != nullptr) {
-                cur_node = cur_node->next;
+            if (cur_node == nullptr) {
+                throw std::out_of_range("Iterator out of range");
             }
+            cur_node = cur_node->next;
             return *this;
         }
         bool operator==(const ConstIterator& other) const {
