@@ -1,3 +1,22 @@
+* commit 857556d0ff1102ab632b6e4c819bc91ba570e322
+| Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+| Date:   Sat Jul 4 17:53:21 2026 +0300
+| 
+|     fix issue in SortedList and TaskManager::assignTask
+| 
+|  SortedList.h    | 12 ++++++++++++
+|  TaskManager.cpp |  1 +
+|  2 files changed, 13 insertions(+)
+| 
+* commit 5054917d10f15bd7ba8cea74c692342a6e26085f
+| Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+| Date:   Sat Jul 4 17:36:16 2026 +0300
+| 
+|     update log.txt
+| 
+|  log.txt | 18 ++++++++++++++++++
+|  1 file changed, 18 insertions(+)
+| 
 * commit 4759a8bf351574f3516260f88c13912549dd6a44
 | Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
 | Date:   Sat Jul 4 17:35:23 2026 +0300
