@@ -1,3 +1,21 @@
+* commit 4759a8bf351574f3516260f88c13912549dd6a44
+| Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+| Date:   Sat Jul 4 17:35:23 2026 +0300
+| 
+|     fix issue in SortedList.h
+| 
+|  SortedList.h | 7 ++++---
+|  1 file changed, 4 insertions(+), 3 deletions(-)
+| 
+* commit 94c7680134f6793020d6db6fded2a323ded754d0
+| Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+| Date:   Sat Jul 4 17:03:51 2026 +0300
+| 
+|     add log.txt for final submission
+| 
+|  log.txt | 29 +++++++++++++++++++++++++++++
+|  1 file changed, 29 insertions(+)
+| 
 * commit a609ea9a6413f24af98d4a8c699fb973ce30d4c9
 | Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
 | Date:   Sat Jul 4 17:02:52 2026 +0300
