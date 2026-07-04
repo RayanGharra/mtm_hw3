@@ -1,0 +1,76 @@
+* commit b911219b19005c0d07dd8d3fb9eeb00bc228af3b
+| Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+| Date:   Sat Jul 4 16:53:42 2026 +0300
+| 
+|     add dry.pdf for submission
+| 
+|  dry.pdf | Bin 0 -> 73755 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+|   
+*   commit 554aaf2429b79134f74e55a333d55728ac303fe8
+|\  Merge: 2335cef 0279ea5
+| | Author: RayanGharra <rayan.gharra1234@gmail.com>
+| | Date:   Sat Jul 4 16:17:36 2026 +0300
+| | 
+| |     Merge pull request #1 from RayanGharra/feature/SortedList
+| |     
+| |     Feature/sorted list
+| | 
+| * commit 0279ea5ee5ecf9c594cb682b7d6b32a72f27ec6c
+| | Author: RayanGharra <rayan.gharra1234@gmail.com>
+| | Date:   Sat Jul 4 16:12:09 2026 +0300
+| | 
+| |     Implement deafult c'tor, copy c'tor, ConstIterator and other methods
+| | 
+| |  SortedList.h | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * commit db0a50dec857e03ab584889372f24f1d9a0bb5f4
+| | Author: RayanGharra <rayan.gharra1234@gmail.com>
+| | Date:   Sat Jul 4 16:02:02 2026 +0300
+| | 
+| |     Implement ConstIterator
+| | 
+| |  SortedList.h | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * commit 428dccf02582e03cfcce134c07c9ac44b09d0b38
+| | Author: RayanGharra <rayan.gharra1234@gmail.com>
+| | Date:   Sat Jul 4 15:59:11 2026 +0300
+| | 
+| |     Implement deafult c'tor, copy c'tor and the other methods
+| | 
+| |  SortedList.h | 251 ++++++++++++++++++++++++++++++++++++++++++++++---------
+| |  1 file changed, 212 insertions(+), 39 deletions(-)
+| | 
+* | commit 2335cef6024cf753eb09b7eae497bf138355b340
+|/  Author: MrPotatoGT <reda.anabseh@campus.technion.ac.il>
+|   Date:   Sat Jul 4 15:59:05 2026 +0300
+|   
+|       Implement TaskManager methods and printing loops
+|   
+|    TaskManager.cpp | 137 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+|    TaskManager.h   |  10 +++-
+|    2 files changed, 145 insertions(+), 2 deletions(-)
+| 
+* commit 64a99b755d6be0fffeb75022ff66192247347656
+  Author: kareemabogazala <109505740+kareemabogazala@users.noreply.github.com>
+  Date:   Fri Jun 19 08:39:15 2026 +0300
+  
+      Initial commit
+  
+   Person.cpp           |  51 +++++
+   Person.h             |  79 ++++++++
+   README.md            |   6 +
+   SortedList.h         |  57 ++++++
+   Task.cpp             |  86 ++++++++
+   Task.h               | 115 +++++++++++
+   TaskManager.h        |  75 +++++++
+   main.cpp             | 531 +++++++++++++++++++++++++++++++++++++++++++++++++
+   tests/test1.expected |   3 +
+   tests/test2.expected |   3 +
+   tests/test3.expected |  30 +++
+   tests/test4.expected |   3 +
+   tests/test5.expected |   3 +
+   tests/test6.expected |  15 ++
+   14 files changed, 1057 insertions(+)
