@@ -215,6 +215,7 @@ SortedList<T>::~SortedList() {
             Node* next_node = current->next;
             delete current;
             current = next_node;
+            
         }
 
         head = nullptr;
